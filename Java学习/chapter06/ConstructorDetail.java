@@ -47,5 +47,8 @@ class Dog {
 	Dog() {
 		System.out.println("123");
 	}
+	public void say() {
+		System.out.println("hello");
+	}
 
 }

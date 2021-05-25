@@ -6,20 +6,20 @@ public class ConstructorExercise {
 }
 
 /*
-	åœ¨ Person ç±»ä¸­æ·»åŠ ä¸¤ä¸ªæž„é€ å™¨:
-	ç¬¬ä¸€ä¸ªæ— å‚æž„é€ å™¨: åˆ©ç”¨æž„é€ å™¨è®¾ç½®æ‰€æœ‰äººçš„ageå±žæ€§åˆå§‹å€¼ä¸º18
-	ç¬¬äºŒä¸ªå¸¦pName å’Œ Pageä¸¤ä¸ªå‚æ•°çš„æž„é€ å™¨, ä½¿å¾—æ¯æ¬¡åˆ›å»ºPersonå¯¹è±¡çš„åŒæ—¶åˆå§‹åŒ–å¯¹è±¡çš„ageå±žæ€§å€¼å’Œnameå±žæ€§å€¼
-	åˆ†åˆ«ä½¿ç”¨ä¸åŒçš„æž„é€ å™¨åˆ›å»ºå¯¹è±¡
+	ÔÚ Person ÀàÖÐÌí¼ÓÁ½¸ö¹¹ÔìÆ÷:
+	µÚÒ»¸öÎÞ²Î¹¹ÔìÆ÷: ÀûÓÃ¹¹ÔìÆ÷ÉèÖÃËùÓÐÈËµÄageÊôÐÔ³õÊ¼ÖµÎª18
+	µÚ¶þ¸ö´øpName ºÍ PageÁ½¸ö²ÎÊýµÄ¹¹ÔìÆ÷, Ê¹µÃÃ¿´Î´´½¨Person¶ÔÏóµÄÍ¬Ê±³õÊ¼»¯¶ÔÏóµÄageÊôÐÔÖµºÍnameÊôÐÔÖµ
+	·Ö±ðÊ¹ÓÃ²»Í¬µÄ¹¹ÔìÆ÷´´½¨¶ÔÏó
 */
 class Person {
-	String name; // é»˜è®¤å€¼ null
-	int age; // é»˜è®¤å€¼ 0
-	// ç¬¬ä¸€ä¸ªæ— å‚æž„é€ å™¨: åˆ©ç”¨æž„é€ å™¨è®¾ç½®æ‰€æœ‰äººçš„ageå±žæ€§åˆå§‹å€¼ä¸º18
+	String name; // Ä¬ÈÏÖµ null
+	int age; // Ä¬ÈÏÖµ 0
+	// µÚÒ»¸öÎÞ²Î¹¹ÔìÆ÷: ÀûÓÃ¹¹ÔìÆ÷ÉèÖÃËùÓÐÈËµÄageÊôÐÔ³õÊ¼ÖµÎª18
 	public Person() {
-		age = 18; // ä¸ç”¨é€šè¿‡ä¼ å‚, ç›´æŽ¥å†™æ­»
+		age = 18; // ²»ÓÃÍ¨¹ý´«²Î, Ö±½ÓÐ´ËÀ
 	}
 
-	// ç¬¬äºŒä¸ªå¸¦pName å’Œ Pageä¸¤ä¸ªå‚æ•°çš„æž„é€ å™¨, ä½¿å¾—æ¯æ¬¡åˆ›å»ºPersonå¯¹è±¡çš„åŒæ—¶åˆå§‹åŒ–å¯¹è±¡çš„ageå±žæ€§å€¼å’Œnameå±žæ€§å€¼
+	// µÚ¶þ¸ö´øpName ºÍ PageÁ½¸ö²ÎÊýµÄ¹¹ÔìÆ÷, Ê¹µÃÃ¿´Î´´½¨Person¶ÔÏóµÄÍ¬Ê±³õÊ¼»¯¶ÔÏóµÄageÊôÐÔÖµºÍnameÊôÐÔÖµ
 	public Person(String pname, int page) {
 		name = pname;
 		age = page;
